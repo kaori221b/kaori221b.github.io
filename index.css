@@ -39,7 +39,6 @@ h2.card-title {
   font-family: 'Cabin Sketch', cursive, "Hiragino Sans", "Helvetica Black", "Arial Black", "sans-serif";
   /* ここに色を追加 */
   color: #fff;
-  overflow: hidden;
 }
 
 .content {
