@@ -14,14 +14,6 @@
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
-  <!-- ここにCSSフレームワークの参照を追加 -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- ここにCSSの参照を追加 -->
-  <link rel="stylesheet" href="index.css" />
-  <link rel="icon" href="image/favicon.ico">
-  <title>かおり</title>
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@wakappa_wakatta" />
   <meta property="og:url" content="https://saruwakakun.com/best" />
@@ -29,6 +21,22 @@
   <meta property="og:description" content="鹿児島.mk #26 Webサイト制作体験会 (HTML/CSS入門)で作りました！" />
   <meta property="og:image"
     content="https://raw.githubusercontent.com/kaori221b/kaori221b.github.io/main/image/ogp.png" />
+
+  <title>かおり</title>
+
+  <!-- ここにCSSフレームワークの参照を追加 -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!--Googleフォント-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;800;900&display=swap"
+    rel="stylesheet">
+  <!-- ここにCSSの参照を追加 -->
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="image/favicon.ico">
 
 
 </head>
@@ -112,6 +120,24 @@
             </p>
           </div>
         </div>
+        <!--参考にしたサイト-->
+        <div class="grid card bg-base-100 mb-8">
+          <div class="card-body text-left">
+            <h2 class="card-title" style="color: #69aa2f;">参考サイト</h2>
+            <div class="card w-70 glass">
+              <a href="https://qiita.com/flatsato/items/928974413e8da755bd10" target="_blank">
+                <figure><img src="image/img01.png" alt="qiita" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Qiita</h2>
+                  <p>SNSアイコン SVGまとめ</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-active">Learn now!</button>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
         <!-- アコーディオン-->
         <div class="grid card bg-base-100 mb-8">
           <div class="card-body text-left">
@@ -160,8 +186,9 @@
       </div>
     </div>
   </main>
-  <footer class="footer footer-center p-10 text-base-content rounded">
+  <footer class="footer footer-center p-10 text-base-content rounded" style="color: white;">
     <!-- 早く終わった人はここにフッターを追加してみてください-->
+    <p>© 2022 kaori</p>
   </footer>
 </body>
 
